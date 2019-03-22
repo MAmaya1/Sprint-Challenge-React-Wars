@@ -1,8 +1,10 @@
 import React from 'react';
 
+// Construct character element
+
 const Character = (props) => {
     return (
-        <div className="character">
+        <div className="character-card">
             <p>Name: {props.name}</p>
             <p>Height: {props.height}</p>
             <p>Mass: {props.mass}</p>
@@ -10,15 +12,7 @@ const Character = (props) => {
             <p>Skin Color: {props.skin_color}</p>
             <p>Eye Color: {props.eye_color}</p>
             <p>Birth Year: {props.birth_year}</p>
-            <p>Gender: {props.gender}</p>
-            <p>Home World: {props.homeworld}</p>
-            <p>Films: {props.films}</p>
-            <p>Species: {props.species}</p>
-            <p>Vehicles: {props.vehicles}</p>
-            <p>Starships: {props.starships}</p>
-            <p>Created: {props.created}</p>
-            <p>Edited: {props.edited}</p>
-            <p>Url: {props.url}</p>      
+            <p>Gender: {props.gender}</p>   
         </div>
     )
 }

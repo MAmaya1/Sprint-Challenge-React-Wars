@@ -1,6 +1,8 @@
 import React from 'react';
 import Character from './Character';
 
+// Render individual character elements into characters list
+
 const StarWars = (props) => {
     return (
         <div className="characters">
@@ -15,14 +17,6 @@ const StarWars = (props) => {
                     eye_color={char.eye_color}
                     birth_year={char.birth_year}
                     gender={char.gender}
-                    homeworld={char.homeworld}
-                    films={char.films}
-                    species={char.species}
-                    vehicles={char.vehicles}
-                    starships={char.starships}
-                    created={char.created}
-                    edited={char.edited}
-                    url={char.url}
                     />
                 )
             })}
