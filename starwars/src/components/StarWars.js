@@ -6,9 +6,10 @@ import Character from './Character';
 const StarWars = (props) => {
     return (
         <div className="characters">
-            {props.starwarsChars.map(char => {
+            {props.starwarsChars.map((char, i) => {
                 return (
                     <Character 
+                    key={i}
                     name={char.name}
                     height={char.height}
                     mass={char.mass}
