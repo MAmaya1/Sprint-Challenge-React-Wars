@@ -5,7 +5,7 @@ import React from 'react';
 const Character = (props) => {
     return (
         <div className="character-card">
-            <p>Name: {props.name}</p>
+            <p><strong>Name: {props.name}</strong></p>
             <p>Height: {props.height}</p>
             <p>Mass: {props.mass}</p>
             <p>Hair Color: {props.hair_color}</p>

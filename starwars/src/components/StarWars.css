@@ -1,0 +1,28 @@
+h1 {
+    font-size: 3rem;
+}
+
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.character-card {
+    background: url(../logo.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(181, 171, 158, 0.85);
+    margin: 15px 0;
+    padding: 10px 0 10px 30px;
+    width: 400px;
+    border: 5px solid #D21C1C;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.character-card strong {
+    font-weight: 800;
+}
