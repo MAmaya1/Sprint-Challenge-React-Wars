@@ -26,3 +26,11 @@ h1 {
 .character-card strong {
     font-weight: 800;
 }
+
+.character-card:nth-of-type(4) {
+    background: url(../empirelogo.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(128, 128, 128, 0.85);
+    border: 5px solid black;
+}
